@@ -100,7 +100,7 @@ button{
 }
 
 /* Task list */
-li {
+.task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;  
@@ -108,7 +108,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.task-item > * {
   vertical-align: middle;
 }
 

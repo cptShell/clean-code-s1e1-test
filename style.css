@@ -39,10 +39,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button {
@@ -67,7 +69,8 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
-.add-input, .edit-input {
+.add-input, 
+.edit-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +82,8 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.add-input:focus, .edit-input:focus {
+.add-input:focus, 
+.edit-input:focus {
   color: #333;
 }
 

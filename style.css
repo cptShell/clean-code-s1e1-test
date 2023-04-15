@@ -64,7 +64,9 @@ button{
   color: #3a3A3a;
 }
 /* Heading */
-.todo-add__title, .todo-active__title, .todo-completed__title {
+.todo-add__title,
+.todo-active__title,
+.todo-completed__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -135,7 +137,8 @@ button{
 }
 
 /* Completed */
-.todo-completed .task-item__title {
+.todo-completed
+.task-item__title {
   text-decoration: line-through;
   color: #888;
 }
